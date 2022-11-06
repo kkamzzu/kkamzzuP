@@ -89,9 +89,10 @@ const Program = document.querySelector('#modal .program')
 const Url = document.querySelector('#modal .url')
 const Text = document.querySelector('#modal .text')
 // 생성자 함수
-fuction Modal(){
-  this.속성 = 매개변수
-}
+// 추후 수정
+// fuction Modal(){
+//   this.속성 = 매개변수
+// }
 // prototype
 Modal.Prototype.action = function(){}
 
