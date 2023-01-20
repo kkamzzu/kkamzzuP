@@ -63,7 +63,7 @@ header nav p.close{
   width:5vh; height:5vh;
   position:absolute;
   right:2.5vh; top:2.5vh;
-  background-color:red;
+  background-color:#fff;
   display:none;
 }
 header>.btn{
@@ -71,7 +71,7 @@ header>.btn{
   right:20px;
   top:18px;
   width:40px; height:40px;
-  background-color:red;
+  background-color:#fff;
   display:none;
 }
 
@@ -126,7 +126,8 @@ header>.btn{
 
 /* box02 */
 #box02{
-  background-color:#e8e8e8;
+  /* background-color:#e8e8e8; */
+  background-color:#fff;
 }
 #box02>section{
   width:98%/* 1160px */;
@@ -135,7 +136,8 @@ header>.btn{
   justify-content: space-between;
   flex-wrap:wrap;
 }
-#box02>section>h4{width:26.89655172413793%/* 312px */;}
+#box02>section>h4{width:26.89655172413793%/* 312px */
+;}
 #box02>section>ul{width:63.44827586206897%/* 736px */;}
 #box02>section.info{
   margin-bottom:68px;
@@ -145,11 +147,10 @@ header>.btn{
 }
 #box02>section.info>ul{
   font-size:18px;
-  background-color:pink;
 }
 #box02>section.info>ul>li{
   padding-bottom:10px;
-  border-bottom:1px solid #fff;
+  border-bottom:1px solid #333;
   margin-bottom:16px;
   display:flex;}
 #box02>section.info>ul>li>dfn{
@@ -162,7 +163,14 @@ header>.btn{
   display:inline-block;
 }
 #box02>section.skill{}
-#box02>section.skill>h4{}
+#box02>section.skill>h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #box02>section.skill>ul{
   /* background-color:orange; */
 }
@@ -236,7 +244,7 @@ header>.btn{
   top:50%;
   width:35px;
   height:35px;
-  background-color:red;
+  background-color:#fff;
   display:none;
 }
 #gallery>p.prev{
@@ -260,7 +268,7 @@ header>.btn{
   position:absolute;
   right:30px; top:30px;
   width:30px; height:30px;
-  background-color:red;
+  background-color:#fff;
 }
 #modal>section{
   position:fixed;
@@ -384,7 +392,7 @@ aside>.submenu>li>a{
   width:25px;
   height:25px;
   border-radius:50%;
-  background-color:red;
+  background-color:rgba(0,0,0,0.5);
   text-indent: -99999px;
 }
 aside>.top{
@@ -393,13 +401,17 @@ aside>.top{
   bottom:25px;
   width: 45px;
   height:45px;
-  text-indent:-99999px;
-  background-color:red;
+  background-color:rgba(1,1,1,0.5);
+  border: 2px solid #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 footer{
   padding:45px 0;
   font-size:#fff;
   color:#fff;
   text-align:center;
-  background-color:#333;
+  background-color: #333;
+
 }

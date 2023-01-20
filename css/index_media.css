@@ -19,7 +19,7 @@
     bottom:16.578483245149915%; left:0;
     margin-left:0;
     width:100%;
-    background-color:green;
+
     display:flex;
     flex-wrap:wrap;
     color:#fff;
@@ -32,7 +32,7 @@
 @media screen and (max-width:979px) and (min-width:580px){
   header>div{
     display:block;
-    background-color:green;
+
   }
   header>div>h1{text-align:center;}
   header>div>nav{
@@ -119,7 +119,7 @@
   #all>figure{
     width:34.56vw;
     margin-bottom:0;
-    background-color:green;
+
     text-align:center;
   }
   #all>figure>img{
@@ -132,14 +132,18 @@
     margin-top:-1.92vw;
     width:3.84vw;
     height:3.84vw;
-    background-color:red;
+    background-color:#111;
     display:block;
+    
   }
   #gallery>p.prev{
     left:5.76vw;
+
   }
   #gallery>p.next{
     right:5.76vw;
+
+
   }
   /* box04 */
   #box04>div>form{
@@ -330,7 +334,7 @@
 }
 /*  4 */
 #gallery{
-background-color:pink;
+/* background-color:pink; */
   position:relative;
 }
 /* 17 */
@@ -367,9 +371,11 @@ background-color:pink;
 }
 #gallery>p.prev{
   left:6vw;
+  background-color: #333;
 }
 #gallery>p.next{
   right:6vw;
+  background-color: #333;
 }
 #box04>div{
   width:76vw;
